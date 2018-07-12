@@ -6,16 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lorem ipsum</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <style>
+        header nav ul {
+            /* Отменил буллеты у элементов списка */
+            list-style: none;
+            
+        }
+
+        header nav ul li {
+            /* Остаются блочным, но выстраиваются в одну строка */
+            display: inline-block;
+            
+        }
+    </style>
 </head>
 
 <body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <h1>Павел Кривихин</h1>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-8">
+                    <nav>
+                        <ul>
+                            <li>Обо мне</li>
+                            <li>Проекты</li>
+                            <li>Отзывы</li>
+                            <li>Контакты</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
     <div class="container">
-        <h2>Quis ipsum voluptate id qui ad amet elit dolore do ad consequat minim nisi minim.</h2>
-        <p>Voluptate do excepteur ea aliquip cupidatat. Proident do minim pariatur laboris ullamco ipsum dolor exercitation
-            nisi exercitation exercitation laboris reprehenderit non. Irure fugiat velit voluptate culpa velit officia nostrud
-            nulla proident nostrud duis sit ad culpa. Commodo mollit dolor in laboris ea culpa qui consectetur velit cillum
-            occaecat cupidatat mollit.</p>
+        <div class="row">
+            <div class="col-8">
+                <a href="http://mail.ru">Mail.ru Новости Погода Девочки</a> Id dolor minim voluptate irure. Mollit aute minim sit dolore officia dolor
+                ad do eu laborum quis officia et sit. Consectetur enim incididunt incididunt anim deserunt. Excepteur aliqua
+                consectetur do eiusmod esse veniam consectetur minim duis. </div>
+            <div class="col-3">
+                Ad veniam et excepteur laboris est cillum ipsum deserunt commodo laborum velit. Nulla dolor quis incididunt deserunt ipsum
+                irure exercitation laboris reprehenderit.
+            </div>
+            <div class="col-1">
+                <h2>Продукты</h2>
+                <ul>
+                    <li>Хлеб</li>
+                    <li>Вино</li>
+                    <li>Рыба</li>
+                </ul>
+            </div>
+        </div>
+
     </div>
+
 </body>
 
 </html>

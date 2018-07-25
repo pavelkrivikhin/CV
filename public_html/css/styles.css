@@ -1,3 +1,35 @@
+/* Общие стили */
+
+body {
+    font-size: 18px;
+    line-height: 23px;
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: #f1ece9;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+/* Стили разделов */
+header {
+    background-color: #333a42;
+    padding-top: 39px;
+}
+
+header h1 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+}
+header nav {
+    padding-top: 7px;
+    padding-bottom: 2px;
+   color: #ffffff;
+}
 header nav ul {
     /* Отменил буллеты у элементов списка */
     list-style: none;
@@ -6,4 +38,10 @@ header nav ul {
 header nav ul li {
     /* Остаются блочным, но выстраиваются в одну строка */
     display: inline-block;
+    margin-right: 34px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: inherit; /* наследуем цвет от родительского элемента */
 }

@@ -1,0 +1,9 @@
+header nav ul {
+    /* Отменил буллеты у элементов списка */
+    list-style: none;
+}
+
+header nav ul li {
+    /* Остаются блочным, но выстраиваются в одну строка */
+    display: inline-block;
+}

@@ -45,3 +45,8 @@ header nav ul li a {
     text-decoration: none;
     color: inherit; /* наследуем цвет от родительского элемента */
 }
+
+#about {
+    padding-top: 121px;
+    padding-bottom: 80px;
+}

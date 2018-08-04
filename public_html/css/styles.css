@@ -66,3 +66,30 @@ header nav ul li a {
     font-size: 24px;
     line-height: 32px;
 }
+
+#projects {
+    padding-top: 39px;
+    padding-bottom: 42px;
+}
+
+#projects figure {
+    padding-top: 10px;
+}
+
+#projects figure img {
+    /* запретили картинке разъезжаться */
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+#projects figure figcaption h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 7px;
+}
+
+#projects figure figcaption .counter {
+    /* притягиваем текст к правой части элемента */
+    text-align: right;
+}

@@ -93,3 +93,28 @@ header nav ul li a {
     /* притягиваем текст к правой части элемента */
     text-align: right;
 }
+
+#reviews .wrapper {
+    padding-top: 21px;
+    padding-bottom: 127px;
+    border-top: 1px solid #a6a5a1;
+}
+
+#reviews .wrapper h2 {
+    margin-bottom: 57px;
+}
+
+#reviews .wrapper figure img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#reviews .wrapper h3 {
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+#reviews .wrapper p {
+    line-height: 24px;
+}

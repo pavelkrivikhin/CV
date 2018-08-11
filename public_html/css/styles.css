@@ -118,3 +118,31 @@ header nav ul li a {
 #reviews .wrapper p {
     line-height: 24px;
 }
+
+#contacts .wrapper {
+    padding-top: 37px;
+    padding-bottom: 96px;
+    border-top: 1px solid #a6a5a1;
+}
+
+#contacts .contacts h2 {
+    margin-bottom: 32px;
+}
+
+#contacts .contacts p {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+#contacts .contacts p:not(:last-child) {
+    /* (отступ снизу соответствует высоте строки, применяется ко всем кроме последнего) */
+    margin-bottom: 32px;
+}
+
+#contacts .contacts p a {
+    text-decoration: none;
+}
+
+#contacts .contacts p a.mailto {
+    color: #d7443e;
+}

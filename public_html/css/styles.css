@@ -146,3 +146,25 @@ header nav ul li a {
 #contacts .contacts p a.mailto {
     color: #d7443e;
 }
+
+#contacts .feedback h2 {
+    margin-bottom: 22px;
+}
+
+#contacts .feedback p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+#contacts .massage h3 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+#contacts .feedback input {
+    width: 100%;
+}
+
+#contacts .massage textarea {
+    width: 100%;
+}

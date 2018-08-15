@@ -153,18 +153,27 @@ header nav ul li a {
 
 #contacts .feedback p {
     font-size: 18px;
-    line-height: 24px;
+    line-height: 32px;
+    margin-bottom: 3px;
 }
 
 #contacts .massage h3 {
     font-size: 18px;
-    line-height: 24px;
+    line-height: 32px;
+    margin-bottom: 3px;
 }
 
 #contacts .feedback input {
     width: 100%;
+    margin-bottom: 13px;
 }
 
 #contacts .massage textarea {
     width: 100%;
+    margin-bottom: 32px;
+}
+
+#down {
+    background-color: #333a42;
+    padding-top: 52px;
 }

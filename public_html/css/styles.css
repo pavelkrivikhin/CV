@@ -151,26 +151,33 @@ header nav ul li a {
     margin-bottom: 22px;
 }
 
-#contacts .feedback p {
-    font-size: 18px;
+#contacts .feedback form label {
     line-height: 32px;
     margin-bottom: 3px;
 }
 
-#contacts .massage h3 {
-    font-size: 18px;
+#contacts .feedback form input,
+#contacts .feedback form textarea {
+    border: 1px solid #333a42;
     line-height: 32px;
-    margin-bottom: 3px;
+    font-size: 18px;
 }
 
-#contacts .feedback input {
+#contacts .feedback form input:not([type="submit"]),
+#contacts .feedback form textarea {
     width: 100%;
-    margin-bottom: 13px;
+    padding: 0 5px 0 5px;
 }
 
-#contacts .massage textarea {
-    width: 100%;
-    margin-bottom: 32px;
+#contacts .feedback form input[type="submit"] {
+    background-color: #333a42;
+    color: #ffffff;
+    padding: 0 25px 0 25px;
+}
+
+#contacts .feedback form .message {
+    padding-top: 13px;
+    padding-bottom: 32px;
 }
 
 #down {

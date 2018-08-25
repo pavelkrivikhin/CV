@@ -153,25 +153,32 @@
                         <div class="container">
                             <div class="feedback">
                                 <h2>Обратная связь</h2>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <p>Имя</p>
-                                        <input type="text" name="name" id="">
+                                <form method="post">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <label for="name">Имя</label>
+                                            <input name="name" id="name" required>
+                                        </div>
+                                        <div class="col-6">
+                                            <label for="email">Почта</label>
+                                            <input type="email" name="email" id="email" required>
+                                        </div>
                                     </div>
-                                    <div class="col-6">
-                                        <p>Почта</p>
-                                        <input type="text" name="mail" id="">
+                                    <!-- /.row -->
+                                    <div class="message">
+                                        <label for="message">Сообщение</label>
+                                        <textarea name="message" id="message" rows="5" required></textarea>
                                     </div>
-                                </div>
+                                    <!-- /.message -->
+                                    <input type="submit" value="Отправить">
+                                </form>
                             </div>
-                            <div class="massage">
-                                <h3>Сообщение</h3>
-                                <textarea name="massage" id="" cols="30" rows="10"></textarea>
-                            </div>
-                            <button>отправить</button>
+                            <!-- /.feedback -->
                         </div>
                     </div>
+                    <!-- /.row -->
                 </div>
+                <!-- /.wrapper -->
             </div>
         </div>
     </section>

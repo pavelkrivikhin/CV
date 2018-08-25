@@ -180,7 +180,12 @@ header nav ul li a {
     padding-bottom: 32px;
 }
 
-#down {
+footer {
     background-color: #333a42;
-    padding-top: 52px;
+    color: #ffffff;
+}
+
+footer p {
+    padding: 15px 0 15px 0;
+    text-align: center;
 }

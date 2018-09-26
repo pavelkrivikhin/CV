@@ -10,7 +10,7 @@ $result = mail('professor.faust.st.p@gmail.com', 'Сообщение с сайт
 
 //проверяем результат работы функции и выводим соответствуещее сообщение.
 if($result){
-    echo 'Спасибо! Ваше сообщение было успешно отправлено. <a href="/">Назад</a>';
+    echo 'Success! Your message was be send. <a href="/">Back to main page</a>';
 } else {
-    echo 'Извините. Что-то пошло не так :(. <a href="/">Назад</a>';
+    echo 'Error. Something went wrong. <a href="/">Back to main page</a>';
 }

@@ -303,7 +303,7 @@
                     //получыили ответ от сервера и можем с ним что-то сделать...
                     
                     //если ответ от сервера содержит сообщение result со значением true
-                    if (result in data && result === true) {
+                    if ("result" in data && result === true) {
                         $(".feedback-form-success").show();
                     } else {
                         $(".feedback-form-error").show();

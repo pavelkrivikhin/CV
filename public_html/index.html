@@ -246,8 +246,10 @@
                                 <!-- /.message -->
                                 <input type="submit" value="Отправить">
                             </form>
-                            <div class="feedback-form-success" style="display: none;">Сообщение было успешно отправлено!</div>
-                            <div class="feedback-form-error" style="display: none;">Что-то пошло не так :(</div>
+                            <div class="feedback-form-result feedback-form-success" style="display: none;">Сообщение
+                                было успешно отправлено!</div>
+                            <div class="feedback-form-result feedback-form-error" style="display: none;">Что-то пошло
+                                не так :(</div>
                         </div>
                         <!-- /.feedback -->
                     </div>
@@ -301,12 +303,26 @@
                     message: message
                 }, function (data) {
                     //получыили ответ от сервера и можем с ним что-то сделать...
-                    
+
                     //если ответ от сервера содержит сообщение result со значением true
                     if (("result" in data) && (data["result"] === true)) {
+
                         $(".feedback-form-success").show();
+                        setTimeout(function () {
+                            $(".feedback-form-success").hide();
+                        }, 4000);
+
+                        $("#name").val("");
+                        $("#email").val("");
+                        $("#message").val("");
+
                     } else {
+
                         $(".feedback-form-error").show();
+                        setTimeout(function () {
+                            $(".feedback-form-error").hide();
+                        }, 4000);
+
                     }
 
                 }, "json");

@@ -180,6 +180,10 @@ header nav ul li a {
     padding-bottom: 32px;
 }
 
+#contacts .feedback .feedback-form-result {
+    padding: 15px 0 15px 0;
+}
+
 footer {
     background-color: #333a42;
     color: #ffffff;
